@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-page">
+      <img
+        src="https://images.unsplash.com/photo-1620464003286-a5b0d79f32c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+        alt="login-img"
+      />
+
+      <div class="container">
+        <div class="form">
+          <div class="input-form">
+            <h2>Login</h2>
+            <input
+              id="email"
+              class="message"
+              type="email"
+              ,
+              placeholder="Your Email"
+            />
+            <input
+              id="password"
+              class="message"
+              type="password"
+              ,
+              placeholder="Password"
+            />
+          </div>
+
+          <label class="box">
+            <input type="checkbox" name="remember me" />Remember me
+          </label>
+
+          <input type="submit" class="btn" value="Login" onclick="validate()" />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
